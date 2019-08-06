@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_image_view">120dp</dimen>
+    <dimen name="textview_size_in_fragments">25sp</dimen>
+    <dimen name="text_view_size_in_listof_items">18sp</dimen>
+    <dimen name="recyclerview_height_in_listof_items">180dp</dimen>
+    <dimen name="tv_size_in_single_item">20sp</dimen>
+    <dimen name="sub_tv_size_in_single_item">15sp</dimen>
+    <dimen name="app_padding">4dp</dimen>
+    <dimen name="tv_margin_bottom_single_item">12dp</dimen>
+    <dimen name="relativ_padding_listof_items">2dp</dimen>
+    <dimen name="tv_margin_top_dialog">10dp</dimen>
+    <dimen name="tv_size_dialog">15sp</dimen>
+    <dimen name="title_tv_size_dialog">20sp</dimen>
+    <dimen name="linear_margin_bottom_dialog">20dp</dimen>
+    <dimen name="button_t_size_dialog">20sp</dimen>
+</resources>
