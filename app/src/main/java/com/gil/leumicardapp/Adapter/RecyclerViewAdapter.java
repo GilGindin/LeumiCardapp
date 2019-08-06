@@ -41,9 +41,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         for (int j = 0; j < dataList.size(); j++) {
             singleSectionItems = dataList.get(j).getAllItems();
-            Log.d(TAG, "onBindViewHolder:---- " + dataList.get(j).toString());
         }
-
 
         itemRowHolder.itemTitle.setText(sectionName);
 

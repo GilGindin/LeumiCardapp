@@ -64,7 +64,6 @@ class SectionListDataAdapter extends RecyclerView.Adapter<SectionListDataAdapter
         }
 
         if (singleItem.getImag() != null) {
-
             Picasso.with(mContext).load(singleItem.getImag()).into(holder.itemImage);
         }
 

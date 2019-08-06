@@ -75,7 +75,6 @@ public class CategoryFragment extends Fragment {
                 single.add(new DataListObject());
             }
             dm.setAllItems(single);
-            Log.d(TAG, "creaeDummyData: " + dm.toString());
             allDataLists.add(dm);
         }
 
