@@ -12,10 +12,10 @@ import java.util.List;
 public class ViewPagerAdapter extends FragmentPagerAdapter {
 
     private final List<Fragment> mFragmentList = new ArrayList<>();
-    private final List<String>  fragmentTitle = new ArrayList<>();
+    private final List<String> fragmentTitle = new ArrayList<>();
     Context mContext;
 
-    public ViewPagerAdapter(FragmentManager fm , Context context) {
+    public ViewPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
         this.mContext = context;
     }
@@ -30,7 +30,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
         return mFragmentList.size();
     }
 
-    public void addFragment(Fragment fragment , String title){
+    public void addFragment(Fragment fragment, String title) {
         mFragmentList.add(fragment);
         fragmentTitle.add(title);
     }

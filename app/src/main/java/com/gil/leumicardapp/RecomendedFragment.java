@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -58,8 +57,10 @@ public class RecomendedFragment extends Fragment {
 
         RecyclerView my_recycler_view = (RecyclerView) v.findViewById(R.id.my_recycler_view);
         my_recycler_view.setHasFixedSize(true);
+
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(getContext(), allDataLists);
         my_recycler_view.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
+
         my_recycler_view.setAdapter(adapter);
 
         return v;

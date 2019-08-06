@@ -4,12 +4,12 @@
     android:layout_height="wrap_content"
     android:background="?android:selectableItemBackground"
     android:orientation="vertical"
-    android:padding="5dp">
+    android:padding="@dimen/app_padding">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="2dp">
+        android:padding="@dimen/relativ_padding_listof_items">
 
 
         <TextView
@@ -22,7 +22,7 @@
             android:layout_gravity="center_vertical"
             android:text="Sample title"
             android:textColor="@android:color/black"
-            android:textSize="18sp" />
+            android:textSize="@dimen/text_view_size_in_listof_items" />
 
 
     </RelativeLayout>
@@ -30,7 +30,7 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view_list"
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="@dimen/recyclerview_height_in_listof_items"
         android:layout_gravity="center_vertical"
         android:orientation="horizontal" />
 
